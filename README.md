@@ -33,10 +33,10 @@ Unfortunately even with node and edge consistency we still not necessarily have 
 
 3) instantiateRec(...) for variable instantiation and backups, if...
 
-    4) ac3la(...) ...fails. Checks whether the instantiation would lead to a consistent state,
-    or to be more precise: After the instantiation of vertex x, we check all vertices
-    pointing to vertex x with a higher index. If it fails, we have to revert the instantiation
-    and try the next one on the same vertex. 
+4) ac3la(...) ...fails. Checks whether the instantiation would lead to a consistent state,
+or to be more precise: After the instantiation of vertex x, we check all vertices
+pointing to vertex x with a higher index. If it fails, we have to revert the instantiation
+and try the next one on the same vertex. 
     
     This was by the way the hardest part of the exercise. All the algorithms were given and
     Kotlin is a very easy and expressive language so that I didn't have much problems with that.
