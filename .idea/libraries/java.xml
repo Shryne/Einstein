@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/commons-net-3.5-src.zip!/commons-net-3.5-src/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/commons-net-3.5-src.zip!/commons-net-3.5-src/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
