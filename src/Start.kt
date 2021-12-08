@@ -50,13 +50,13 @@ fun main(args: Array<String>) {
     //####################################################
     // add vertices
     //####################################################
-    with(graph, {
+    graph.apply {
         addVertices(nations, domain)
         addVertices(colors, domain)
         addVertices(pets, domain)
         addVertices(drinks, domain)
         addVertices(cigarettes, domain)
-    })
+    }
 
     //####################################################
     // constraints
